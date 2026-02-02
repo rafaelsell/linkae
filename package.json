@@ -1,0 +1,21 @@
+{
+  "name": "linkae",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "pre": "bun install --filter @linkae/client --filter @linkae/server",
+    "dev": "concurrently \"bun run --filter @linkae/server dev\" \"bun run --filter @linkae/client dev\""
+  },
+  "devDependencies": {
+    "@linkae/client": "workspace:*",
+    "@linkae/server": "workspace:*",
+    "@types/bun": "latest",
+    "concurrently": "^9.2.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

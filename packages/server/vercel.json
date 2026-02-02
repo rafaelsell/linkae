@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/main.ts"
+    }
+  ],
+  "functions": {
+    "main.ts": {
+      "runtime": "edge"
+    }
+  }
+}
