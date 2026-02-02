@@ -39,12 +39,12 @@
     },
     "packages/server": {
       "name": "@linkae/server",
+      "version": "1.0.50",
       "dependencies": {
-        "elysia": "1",
+        "elysia": "latest",
       },
       "devDependencies": {
-        "@types/bun": "1",
-        "typescript": "5",
+        "bun-types": "latest",
       },
     },
   },
