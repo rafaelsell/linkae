@@ -4,7 +4,8 @@
   "scripts": {
     "start": "bun run main.ts",
     "dev": "bun run --watch main.ts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "vercel-build": "bun build main.ts --compile --minify --target bun --outfile dist/index"
   },
   "devDependencies": {
     "@types/bun": "1",
