@@ -10,5 +10,6 @@
       "memory": 1024,
       "maxDuration": 10
     }
-  }
+  },
+  "bunVersion": "1.x"
 }

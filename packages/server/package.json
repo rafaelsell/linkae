@@ -6,6 +6,7 @@
     "build": "echo 'Build step not required for simple Elysia apps'"
   },
   "dependencies": {
+    "@whatwg-node/server": "^0.10.18",
     "elysia": "latest"
   },
   "devDependencies": {
