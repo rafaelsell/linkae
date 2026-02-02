@@ -2,12 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/main.ts"
+      "destination": "/api/index.ts"
     }
-  ],
-  "functions": {
-    "main.ts": {
-      "runtime": "edge"
-    }
-  }
+  ]
 }
